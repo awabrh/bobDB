@@ -18,7 +18,7 @@ func SaveData(path string, data []byte) error {
 }
 
 func main() {
-	data := "Hello, World!"
-	SaveData("test.txt", []byte(data))
+	data := "Hello, again!"
+	SaveData("./out/test.txt", []byte(data))
 	fmt.Println(data)
 }
